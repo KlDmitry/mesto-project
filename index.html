@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <title>mesto</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <img src="./images/header-logo.svg" alt="Логотип" class="header__logo" />
+            <div class="header__line"></div>
+        </header>
+
+
+        <main class="main">
+
+
+            <section class="profile">
+                <div class="profile__info">
+                <img class="profile__image" src="./images/profile-image.jpg" alt="Фото профиля">
+                
+                    <div class="profile__description">
+                        <h1 class="profile__title">Жак-Ив Кусто
+                            <button class="profile__btn profile__btn_edit">
+                            </button>
+                        </h1>
+                        <h3 class="profile__subtitle">Исследователь океана</h3>
+                    </div>
+                </div>
+
+                <button class="profile__btn profile__btn_add">
+                    <img class="profile__img-add-button" src="./images/Add-button.svg" alt="кнопка добавить">
+                </button>
+            </section>
+            <section class="card">
+                <div class="card__item">
+                    <img src="./images/Карачаевск.jpg" alt="" class="card__image">
+                    <div class="card__description">
+                        <h2 class="card__title">Карачаевск</h2>
+
+                        <button class="card__btn card__btn_like card__btn_like_active" title="Нравится">
+                        </button>
+                    </div>
+
+                </div>
+                <div class="card__item">
+                    <img src="./images/Эльбрус.jpg" alt="" class="card__image">
+                    <div class="card__description">
+                        <h2 class="card__title">Гора Эльбрус</h2>
+
+                        <button class="card__btn card__btn_like card__btn_like_active" title="Нравится">
+                        </button>
+                    </div>
+
+                </div>
+                <div class="card__item">
+                    <img src="./images/Домбай.jpg" alt="" class="card__image">
+                    <div class="card__description">
+                        <h2 class="card__title">Домбай</h2>
+
+                        <button class="card__btn card__btn_like card__btn_like_active" title="Нравится">
+                        </button>
+                    </div>
+
+                </div>
+                <div class="card__item">
+                    <img src="./images/Эльбрус.jpg" alt="" class="card__image">
+                    <div class="card__description">
+                        <h2 class="card__title">Гора Эльбрус</h2>
+
+                        <button class="card__btn card__btn_like card__btn_like_active" title="Нравится">
+                        </button>
+                    </div>
+
+                </div>
+                <div class="card__item">
+                    <img src="./images/Домбай.jpg" alt="" class="card__image">
+                    <div class="card__description">
+                        <h2 class="card__title">Домбай</h2>
+
+                        <button class="card__btn card__btn_like card__btn_like_active" title="Нравится">
+                        </button>
+                    </div>
+
+                </div>
+                <div class="card__item">
+                    <img src="./images/Карачаевск.jpg" alt="" class="card__image">
+                    <div class="card__description">
+                        <h2 class="card__title">Карачаево-Черкесская Респубkика</h2>
+
+                        <button class="card__btn card__btn_like card__btn_like_active" title="Нравится">
+                        </button>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <p class="footer__copyright">&copy;2022 Mesto Russia</p>
+        </footer>
+        <!--
+        <div class="popup">
+            <div class="popup__container">
+                <div class="popup__toggle">
+                    <img class="popup__toggle-image" src="./images/close_icon.svg">
+                </div>
+                <h2 class="popup__heading">Редактировать профиль</h2>
+                <fieldset class="popup__input-container">
+                    <label class="popup__field">
+                        <input type="text" id="name" name="name" class="popup__item popup__item_type_name"
+                            placeholder="Жак-Ив Кусто" required>
+                    </label>
+                    <label class="popup__field">
+                        <input type="text" id="info" name="info" class="popup__item popup__item_type_info"
+                            placeholder="Исследователь океана" required>
+                    </label>
+                    <label class="popup__handler">
+                    <input type="submit" value="Сохранить" class="popup__button" placeholder="Сохранить" required>
+                    </label>
+                </fieldset>
+                
+            </div>
+        </div>
+        -->
+    </div>
+</body>
+
+</html>

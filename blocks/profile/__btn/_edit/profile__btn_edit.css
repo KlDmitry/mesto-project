@@ -1,0 +1,28 @@
+.profile__btn_edit {
+    padding-left: 18px;
+    border: 1px solid #FFFFFF;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../../../images/profile-btn-edit.svg);
+}
+
+@media screen and (max-width: 580px) {
+    .profile__btn_edit {
+        background-size: 60%;
+        background-position: 35% 40%;
+        padding-left: 10px;
+        width: 18px;
+        height: 18px;
+
+
+    }
+}
+
+.profile__btn_edit:hover {
+
+    opacity: .6;
+}
+
+.profile__btn_edit:focus {
+    opacity: .6;
+}

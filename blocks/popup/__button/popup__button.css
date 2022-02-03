@@ -1,0 +1,21 @@
+.popup__button {
+    width: 358px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    outline: none;
+    border: 0;
+    background: #000000;
+    border-radius: 2px;
+    transition: background-color .3s linear;
+}
+@media screen and (max-width: 580px) {
+    .popup__button {
+        max-width: 238px;
+        height: 46px;
+    }
+}

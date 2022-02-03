@@ -7,7 +7,7 @@ Mesto
 
 ## Страница проекта
 
-https://kateworks.github.io/mesto/
+https://github.com/KlDmitry/mesto-project
 
 
 ## Технологии

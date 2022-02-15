@@ -1,8 +1,5 @@
-
 .profile__description {
-    padding-left: 30px;
-    display: flex;
-    flex-direction: column;
-
-
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }

@@ -7,7 +7,7 @@ Mesto
 
 ## Страница проекта
 
-https://github.com/KlDmitry/mesto-project
+https://kldmitry.github.io/mesto-project/
 
 
 ## Технологии

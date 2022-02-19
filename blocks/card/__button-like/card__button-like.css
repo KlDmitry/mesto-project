@@ -1,0 +1,22 @@
+.card__button-like {
+  background-image: url('../../../images/Like-btn.svg');
+  width: 22px;
+  height: 19px;
+  border: 0;
+  padding: 0;
+  opacity: 1;
+  transition: opacity .5s ease-in-out;
+}
+
+.card__button-like:hover {
+  opacity: .6;
+}
+
+.card__button-like:focus {
+  opacity: .6;
+}
+
+.card__button-like:active::content {
+  background-image: url(../../../images/like-btn-active.svg);
+
+}

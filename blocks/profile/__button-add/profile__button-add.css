@@ -1,4 +1,4 @@
-.profile__btn_add {
+.profile__button-add {
     background-image: url('../../../../images/Add-button.svg');
     margin: 0;
     padding: 0;
@@ -10,16 +10,17 @@
 }
 
 @media screen and (max-width: 915px) {
-    .profile__btn_add {
+    .profile__button-add {
         width: 282px;
+        margin-top: 36px;
 
     }
 }
 
-.profile__btn_add:hover {
+.profile__button-add:hover {
     opacity: .6;
 }
 
-.profile__btn_add:focus {
+.profile__button-add:focus {
     opacity: .6;
 }

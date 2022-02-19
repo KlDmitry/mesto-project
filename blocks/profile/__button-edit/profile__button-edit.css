@@ -1,15 +1,15 @@
-.profile__btn_edit {
+.profile__button-edit {
     margin-left: 18px;
     align-self: center;
     background-position: center;
     border: 1px solid #FFFFFF;
     width: 24px;
     height: 24px;
-    background-image: url(../../../../images/profile-btn-edit.svg);
+    background-image: url(../../../images/profile-btn-edit.svg);
 }
 
 @media screen and (max-width: 915px) {
-    .profile__btn_edit {
+    .profile__button-edit {
         margin-left: 10px;
         background-size: 60%;
         background-position: 50% 50%;
@@ -18,10 +18,10 @@
     }
 }
 
-.profile__btn_edit:hover {
+.profile__button-edit:hover {
     opacity: .6;
 }
 
-.profile__btn_edit:focus {
+.profile__button-edit:focus {
     opacity: .6;
 }

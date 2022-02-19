@@ -1,19 +1,21 @@
 .profile__subtitle {
-    margin: 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    padding-top: 16px;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding-top: 16px;
+  max-width: 500px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @media screen and (max-width: 915px) {
-    .profile__subtitle {
-        padding-top: 14px;
-        padding-bottom: 36px;
-        font-size: 14px;
-        line-height: 17px;
-        text-align: center;
-    }
+  .profile__subtitle {
+    padding-top: 7px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  }
 }

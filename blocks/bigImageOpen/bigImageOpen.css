@@ -1,5 +1,5 @@
 .bigImageOpen {
-  position: fixed;
+  position: relative;
   max-width: 880px;
   width: auto;
   height: auto;

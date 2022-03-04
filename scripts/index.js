@@ -68,7 +68,7 @@ function createCard(titleImage, urlImage) {
     });
   cardItem.querySelector(".card__image").addEventListener("click", function () {
     openPopup(popupBigCardImage);
-    popupBigCardImage.style.backgroundColor = "rgb(0, 0, 0, .9)"
+    popupBigCardImage.style.backgroundColor = "rgb(0, 0, 0, .9)";
     titleBigCardImage.textContent = cardItem.querySelector(".card__title").textContent;
     imageBigCardImage.src = cardItem.querySelector(".card__image").src;
   });

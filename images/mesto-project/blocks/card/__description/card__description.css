@@ -1,0 +1,9 @@
+.card__description {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    box-sizing: border-box;
+    align-items: flex-end;
+    padding: 20px 20px 24px 20px;
+    margin: 0 auto;
+}
